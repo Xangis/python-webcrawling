@@ -1,0 +1,4 @@
+beautifulsoup4==4.3.2
+python-whois==0.5.2
+robotexclusionrulesparser==1.6.2
+langid==1.1.5
