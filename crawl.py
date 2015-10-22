@@ -92,6 +92,7 @@ def ParseHtml(text):
     for link in soup.find_all('a')[0:5]:
         hr = link.get('href')
         if hr:
+            # We could save this link in a crawl queue or database to retrieve later.
             print u'This page links to {0}'.format(hr)
 
 # Retrieve a test page.
